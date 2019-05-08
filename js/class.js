@@ -1,6 +1,12 @@
 class Animal {
-    constructor (name) {
+    constructor (name, speed) {
         this.name = name;
+        this.speed = speed;
+    }
+
+
+    increaseSpeed (newSpeed) {
+        this.speed = newSpeed;
     }
 }
 
